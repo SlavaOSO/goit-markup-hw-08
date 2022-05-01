@@ -18,19 +18,19 @@
     @media screen and (min-width: 768px) {
       display: flex;
       align-items: baseline;
-      @media screen and(min-width:768px) and(max-width:1199.5px) {
+      @media screen and(min-width:768px) and(max-width:1199px) {
         gap: 165px;
       }
     }
     margin-left: auto;
     margin-right: auto;
-    @media screen and(max-width:1199.5px) {
+    @media screen and(max-width:1199px) {
       margin-bottom: 60px;
     }
   }
 
   &__wrapper {
-    @media screen and(max-width:767.5px) {
+    @media screen and(max-width:767px) {
       margin-bottom: 60px;
     }
     @media screen and (min-width: 1200px) {
