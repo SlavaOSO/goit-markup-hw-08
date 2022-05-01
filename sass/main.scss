@@ -2,16 +2,22 @@
 @import './variables/variables';
 
 //utils
+@import './utils/placeholders';
+@import './utils/mixins';
 @import './utils/visually-hidden';
 
 // base styles
 @import './base/base';
 
 //componets
+
 @import './components/button';
+@import './components/mobile-btn';
+
 @import './components/conteiner';
 @import './components/logo';
 @import './components/header';
+@import './components/mobile-menu/element';
 @import './components/nav';
 @import './components/contact';
 @import './components/hero';
@@ -20,9 +26,9 @@
 @import './components/team';
 @import './components/socials-list';
 @import './components/clients';
-@import './components/form';
 @import './components/examples/section';
 @import './components/footer';
+@import './components/form';
 @import './components/backdrop';
 @import './components/modal';
 @import './components/form-submit';

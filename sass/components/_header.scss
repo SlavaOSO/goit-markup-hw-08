@@ -1,10 +1,25 @@
 /* Шапка сайта */
 .header {
-  padding: 24px 0 25px 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 24px 0 25px 0;
+  }
+
   border-bottom: 1px solid var(--line-header-color);
 
   &__container {
     display: flex;
     align-items: center;
+
+    @media screen and (max-width: 767px) {
+      justify-content: space-between;
+    }
   }
 }

@@ -59,6 +59,13 @@
             >
           </li>
         </ul>
+        <!-- Кнопка мобильноого меню -->
+        <button class="mobile-btn" type="button" aria-label="Кнопка мобильного меню" aria-expanded="false" data-menu-button>
+          <svg class="mobile-btn__icon" width="40" height="40">
+            <use class="mobile-btn__open" href="./img/svg/sprite.svg#icon-menu-open"></use>
+            <use class="mobile-btn__close" href="./img/svg/sprite.svg#icon-menu-close"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -92,12 +99,30 @@
             <li class="cards-list__item">
               <a class="link-no-decor cards-list__link" href="">
                 <div class="cards-list__thumb">
-                  <img
-                    src="./img/portfolio/tehnokryak.jpg"
-                    alt="Пример работы Технокряк"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source srcset="
+                                          ./img/portfolio/tehnokryak_lg.webp    1x,
+                                          ./img/portfolio/tehnokryak_lg@2x.webp 2x
+                                        " media="(min-width: 1200px)" type="image/webp" />
+                    <source srcset="
+                                          ./img/portfolio/tehnokryak_lg.jpg    1x,
+                                          ./img/portfolio/tehnokryak_lg@2x.jpg 2x
+                                        " media="(min-width: 1200px)" type="image/jpeg" />
+                    <source srcset="
+                                          ./img/portfolio/tehnokryak_md.webp    1x,
+                                          ./img/portfolio/tehnokryak_md@2x.webp 2x
+                                        " media="(min-width: 768px)" type="image/webp" />
+                    <source srcset="
+                                          ./img/portfolio/tehnokryak_md.jpg    1x,
+                                          ./img/portfolio/tehnokryak_md@2x.jpg 2x
+                                        " media="(min-width: 768px)" type="image/jpeg" />
+                    <source srcset="
+                                          ./img/portfolio/tehnokryak_sm.webp    1x,
+                                          ./img/portfolio/tehnokryak_sm@2x.webp 2x
+                                        " media="(max-width: 767px)" type="image/webp" />
+                    <source srcset="./img/portfolio/tehnokryak_sm@2x.jpg 2x" media="(max-width: 767px)" type="image/jpeg" />
+                    <img src="./img/portfolio/tehnokryak_sm.jpg" alt="Пример работы Технокряк" width="370" height="294" />
+                  </picture>
                   <p class="cards-list__meta">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
@@ -113,12 +138,31 @@
             <li class="cards-list__item">
               <a class="link-no-decor cards-list__link" href="">
                 <div class="cards-list__thumb">
-                  <img
-                    src="./img/portfolio/new-orlean.jpg"
-                    alt="Пример работы постер New Orlean vs Golden Star"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source srcset="
+                                          ./img/portfolio/new_orlean_lg.webp    1x,
+                                          ./img/portfolio/new_orlean_lg@2x.webp 2x
+                                        " media="(min-width: 1200px)" type="image/webp" />
+                    <source srcset="
+                                          ./img/portfolio/new_orlean_lg.jpg    1x,
+                                          ./img/portfolio/new_orlean_lg@2x.jpg 2x
+                                        " media="(min-width: 1200px)" type="image/jpeg" />
+                    <source srcset="
+                                          ./img/portfolio/new_orlean_md.webp    1x,
+                                          ./img/portfolio/new_orlean_md@2x.webp 2x
+                                        " media="(min-width: 768px)" type="image/webp" />
+                    <source srcset="
+                                          ./img/portfolio/new_orlean_md.jpg    1x,
+                                          ./img/portfolio/new_orlean_md@2x.jpg 2x
+                                        " media="(min-width: 768px)" type="image/jpeg" />
+                    <source srcset="
+                                          ./img/portfolio/new_orlean_sm.webp    1x,
+                                          ./img/portfolio/new_orlean_sm@2x.webp 2x
+                                        " media="(max-width: 767px)" type="image/webp" />
+                    <source srcset="./img/portfolio/new_orlean_sm@2x.jpg 2x" media="(max-width: 767px)" type="image/jpeg" />
+                    <img src="./img/portfolio/new_orlean_sm.jpg" alt="Пример работы постер New Orlean vs Golden Star" width="370"
+                      height="294" />
+                  </picture>
                   <p class="cards-list__meta">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
@@ -134,12 +178,30 @@
             <li class="cards-list__item">
               <a class="link-no-decor cards-list__link" href="">
                 <div class="cards-list__thumb">
-                  <img
-                    src="./img/portfolio/seafood.jpg"
-                    alt="Пример работы ресторан Seafood"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source srcset="
+                                          ./img/portfolio/seafood_lg.webp    1x,
+                                          ./img/portfolio/seafood_lg@2x.webp 2x
+                                        " media="(min-width: 1200px)" type="image/webp" />
+                    <source srcset="
+                                          ./img/portfolio/seafood_lg.jpg    1x,
+                                          ./img/portfolio/seafood_lg@2x.jpg 2x
+                                        " media="(min-width: 1200px)" type="image/jpeg" />
+                    <source srcset="
+                                          ./img/portfolio/seafood_md.webp    1x,
+                                          ./img/portfolio/seafood_md@2x.webp 2x
+                                        " media="(min-width: 768px)" type="image/webp" />
+                    <source srcset="
+                                          ./img/portfolio/seafood_md.jpg    1x,
+                                          ./img/portfolio/seafood_md@2x.jpg 2x
+                                        " media="(min-width: 768px)" type="image/jpeg" />
+                    <source srcset="
+                                          ./img/portfolio/seafood_sm.webp    1x,
+                                          ./img/portfolio/seafood_sm@2x.webp 2x
+                                        " media="(max-width: 767px)" type="image/webp" />
+                    <source srcset="./img/portfolio/seafood_sm@2x.jpg 2x" media="(max-width: 767px)" type="image/jpeg" />
+                    <img src="./img/portfolio/seafood_sm.jpg" alt="Пример работы ресторан Seafood" width="370" height="294" />
+                  </picture>
                   <p class="cards-list__meta">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
@@ -155,12 +217,30 @@
             <li class="cards-list__item">
               <a class="link-no-decor cards-list__link" href="">
                 <div class="cards-list__thumb">
-                  <img
-                    src="./img/portfolio/project-prime.jpg"
-                    alt="Пример работы проект Prime"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source srcset="
+                                          ./img/portfolio/project_prime_lg.webp    1x,
+                                          ./img/portfolio/project_prime_lg@2x.webp 2x
+                                        " media="(min-width: 1200px)" type="image/webp" />
+                    <source srcset="
+                                          ./img/portfolio/project_prime_lg.jpg    1x,
+                                          ./img/portfolio/project_prime_lg@2x.jpg 2x
+                                        " media="(min-width: 1200px)" type="image/jpeg" />
+                    <source srcset="
+                                          ./img/portfolio/project_prime_md.webp    1x,
+                                          ./img/portfolio/project_prime_md@2x.webp 2x
+                                        " media="(min-width: 768px)" type="image/webp" />
+                    <source srcset="
+                                          ./img/portfolio/project_prime_md.jpg    1x,
+                                          ./img/portfolio/project_prime_md@2x.jpg 2x
+                                        " media="(min-width: 768px)" type="image/jpeg" />
+                    <source srcset="
+                                          ./img/portfolio/project_prime_sm.webp    1x,
+                                          ./img/portfolio/project_prime_sm@2x.webp 2x
+                                        " media="(max-width: 767px)" type="image/webp" />
+                    <source srcset="./img/portfolio/project_prime_sm@2x.jpg 2x" media="(max-width: 767px)" type="image/jpeg" />
+                    <img src="./img/portfolio/project_prime_sm.jpg" alt="Пример работы проект Prime" width="370" height="294" />
+                  </picture>
                   <p class="cards-list__meta">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
@@ -176,12 +256,33 @@
             <li class="cards-list__item">
               <a class="link-no-decor cards-list__link" href="">
                 <div class="cards-list__thumb">
-                  <img
-                    src="./img/portfolio/project-boxes.jpg"
-                    alt="Пример работы проект Boxes"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source srcset="
+                                          ./img/portfolio/project_boxes_lg.webp    1x,
+                                          ./img/portfolio/project_boxes_lg@2x.webp 2x
+                                        " media="(min-width: 1200px)" type="image/webp" />
+                    <source srcset="
+                                          ./img/portfolio/project_boxes_lg.jpg    1x,
+                                          ./img/portfolio/project_boxes_lg@2x.jpg 2x
+                                        " media="(min-width: 1200px)" type="image/jpeg" />
+                    <source srcset="
+                                          ./img/portfolio/project_boxes_md.webp    1x,
+                                          ./img/portfolio/project_boxes_md@2x.webp 2x
+                                        " media="(min-width: 768px)" type="image/webp" />
+                    <source srcset="
+                                          ./img/portfolio/project_boxes_md.jpg    1x,
+                                          ./img/portfolio/project_boxes_md@2x.jpg 2x
+                                        " media="(min-width: 768px)" type="image/jpeg" />
+                    <source srcset="
+                                          ./img/portfolio/project_boxes_sm.webp    1x,
+                                          ./img/portfolio/project_boxes_sm@2x.webp 2x
+                                        " media="(max-width: 767px)" type="image/webp" />
+                    <source srcset="
+                                          ./img/portfolio/project_boxes_sm.jpg    1x,
+                                          ./img/portfolio/project_boxes_sm@2x.jpg 2x
+                                        " media="(max-width: 767px)" type="image/jpeg" />
+                    <img src="./img/portfolio/project_boxes_sm.jpg" alt="Пример работы проект Boxes" width="370" height="294" />
+                  </picture>
                   <p class="cards-list__meta">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
@@ -197,12 +298,32 @@
             <li class="cards-list__item">
               <a class="link-no-decor cards-list__link" href="">
                 <div class="cards-list__thumb">
-                  <img
-                    src="./img/portfolio/inspiration-no-borders.jpg"
-                    alt="Пример работы Inspiration has no Borders"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source srcset="
+                                          ./img/portfolio/inspiration_no_borders_lg.webp    1x,
+                                          ./img/portfolio/inspiration_no_borders_lg@2x.webp 2x
+                                        " media="(min-width: 1200px)" type="image/webp" />
+                    <source srcset="
+                                          ./img/portfolio/inspiration_no_borders_lg.jpg    1x,
+                                          ./img/portfolio/inspiration_no_borders_lg@2x.jpg 2x
+                                        " media="(min-width: 1200px)" type="image/jpeg" />
+                    <source srcset="
+                                          ./img/portfolio/inspiration_no_borders_md.webp    1x,
+                                          ./img/portfolio/inspiration_no_borders_md@2x.webp 2x
+                                        " media="(min-width: 768px)" type="image/webp" />
+                    <source srcset="
+                                          ./img/portfolio/inspiration_no_borders_md.jpg    1x,
+                                          ./img/portfolio/inspiration_no_borders_md@2x.jpg 2x
+                                        " media="(min-width: 768px)" type="image/jpeg" />
+                    <source srcset="
+                                          ./img/portfolio/inspiration_no_borders_sm.webp    1x,
+                                          ./img/portfolio/inspiration_no_borders_sm@2x.webp 2x
+                                        " media="(max-width: 767px)" type="image/webp" />
+                    <source srcset="./img/portfolio/inspiration_no_borders_sm@2x.jpg 2x" media="(max-width: 767px)"
+                      type="image/jpeg" />
+                    <img src="./img/portfolio/inspiration_no_borders_sm.jpg" alt="Пример работы Inspiration has no Borders" width="370"
+                      height="294" />
+                  </picture>
                   <p class="cards-list__meta">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
@@ -218,12 +339,31 @@
             <li class="cards-list__item">
               <a class="link-no-decor cards-list__link" href="">
                 <div class="cards-list__thumb">
-                  <img
-                    src="./img/portfolio/limited-edition.jpg"
-                    alt="Пример работы издание Limited Edition"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source srcset="
+                                          ./img/portfolio/limited_edition_lg.webp    1x,
+                                          ./img/portfolio/limited_edition_lg@2x.webp 2x
+                                        " media="(min-width: 1200px)" type="image/webp" />
+                    <source srcset="
+                                          ./img/portfolio/limited_edition_lg.jpg    1x,
+                                          ./img/portfolio/limited_edition_lg@2x.jpg 2x
+                                        " media="(min-width: 1200px)" type="image/jpeg" />
+                    <source srcset="
+                                          ./img/portfolio/limited_edition_md.webp    1x,
+                                          ./img/portfolio/limited_edition_md@2x.webp 2x
+                                        " media="(min-width: 768px)" type="image/webp" />
+                    <source srcset="
+                                          ./img/portfolio/limited_edition_md.jpg    1x,
+                                          ./img/portfolio/limited_edition_md@2x.jpg 2x
+                                        " media="(min-width: 768px)" type="image/jpeg" />
+                    <source srcset="
+                                          ./img/portfolio/limited_edition_sm.webp    1x,
+                                          ./img/portfolio/limited_edition_sm@2x.webp 2x
+                                        " media="(max-width: 767px)" type="image/webp" />
+                    <source srcset="./img/portfolio/limited_edition_sm@2x.jpg 2x" media="(max-width: 767px)" type="image/jpeg" />
+                    <img src="./img/portfolio/limited_edition_sm.jpg" alt="Пример работы издание Limited Edition" width="370"
+                      height="294" />
+                  </picture>
                   <p class="cards-list__meta">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
@@ -241,12 +381,30 @@
             <li class="cards-list__item">
               <a class="link-no-decor cards-list__link" href="">
                 <div class="cards-list__thumb">
-                  <img
-                    src="./img/portfolio/project-lab.jpg"
-                    alt="Пример работы проект LAB"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source srcset="
+                                          ./img/portfolio/project_lab_lg.webp    1x,
+                                          ./img/portfolio/project_lab_lg@2x.webp 2x
+                                        " media="(min-width: 1200px)" type="image/webp" />
+                    <source srcset="
+                                          ./img/portfolio/project_lab_lg.jpg    1x,
+                                          ./img/portfolio/project_lab_lg@2x.jpg 2x
+                                        " media="(min-width: 1200px)" type="image/jpeg" />
+                    <source srcset="
+                                          ./img/portfolio/project_lab_md.webp    1x,
+                                          ./img/portfolio/project_lab_md@2x.webp 2x
+                                        " media="(min-width: 768px)" type="image/webp" />
+                    <source srcset="
+                                          ./img/portfolio/project_lab_sm.webp    1x,
+                                          ./img/portfolio/project_lab_sm@2x.webp 2x
+                                        " media="(max-width: 767px)" type="image/webp" />
+                    <source srcset="
+                                          ./img/portfolio/project_lab_sm.webp    1x,
+                                          ./img/portfolio/project_lab_sm@2x.webp 2x
+                                        " media="(max-width: 767px)" type="image/webp" />
+                    <source srcset="./img/portfolio/project_lab_sm@2x.jpg 2x" media="(max-width: 767px)" type="image/jpeg" />
+                    <img src="./img/portfolio/project_lab_sm.jpg" alt="Пример работы проект LAB" width="370" height="294" />
+                  </picture>
                   <p class="cards-list__meta">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
@@ -262,12 +420,30 @@
             <li class="cards-list__item">
               <a class="link-no-decor cards-list__link" href="">
                 <div class="cards-list__thumb">
-                  <img
-                    src="./img/portfolio/growing-business.jpg"
-                    alt="Пример работы Growing Business"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source srcset="
+                                          ./img/portfolio/growing_business_lg.webp    1x,
+                                          ./img/portfolio/growing_business_lg@2x.webp 2x
+                                        " media="(min-width: 1200px)" type="image/webp" />
+                    <source srcset="
+                                          ./img/portfolio/growing_business_lg.jpg    1x,
+                                          ./img/portfolio/growing_business_lg@2x.jpg 2x
+                                        " media="(min-width: 1200px)" type="image/jpeg" />
+                    <source srcset="
+                                          ./img/portfolio/growing_business_md.webp    1x,
+                                          ./img/portfolio/growing_business_md@2x.webp 2x
+                                        " media="(min-width: 768px)" type="image/webp" />
+                    <source srcset="
+                                          ./img/portfolio/growing_business_md.jpg    1x,
+                                          ./img/portfolio/growing_business_md@2x.jpg 2x
+                                        " media="(min-width: 768px)" type="image/jpeg" />
+                    <source srcset="
+                                          ./img/portfolio/growing_business_sm.webp    1x,
+                                          ./img/portfolio/growing_business_sm@2x.webp 2x
+                                        " media="(max-width: 767px)" type="image/webp" />
+                    <source srcset="./img/portfolio/growing_business_sm@2x.jpg 2x" media="(max-width: 767px)" type="image/jpeg" />
+                    <img src="./img/portfolio/growing_business_sm.jpg" alt="Пример работы Growing Business" width="370" height="294" />
+                  </picture>
                   <p class="cards-list__meta">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
@@ -372,5 +548,50 @@
         </form>
       </div>
     </footer>
+    <!-- Мобильное меню -->
+    <div class="mobile-menu" data-menu>
+      <div class="mobile-menu__wrapper-nav">
+        <nav class="mobile-nav">
+          <ul class="list-no-marker mobile-nav__list">
+            <li class="mobile-nav__item">
+              <a class="link-no-decor mobile-nav__link" href="./index.html">Студия</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a class="link-no-decor mobile-nav__link mobile-nav__link--curent" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a class="link-no-decor mobile-nav__link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="mobile-menu__wrapper-bottom">
+        <ul class="list-no-marker mobile-menu__list">
+          <li class="mobile-menu__item">
+            <a class="link-no-decor mobile-menu__link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="link-no-decor mobile-menu__link mobile-menu__link--grey"
+              href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+        </ul>
+        <ul class="list-no-marker mobile-cocials-list">
+          <li class="mobile-cocials-list__item">
+            <a class="link-no-decor mobile-cocials-list__link" href="" target="_blank" noopener noreferrer>Instagram</a>
+          </li>
+          <li class="mobile-cocials-list__item">
+            <a class="link-no-decor mobile-cocials-list__link" href="" target="_blank" noopener noreferrer>Twitter</a>
+          </li>
+          <li class="mobile-cocials-list__item">
+            <a class="link-no-decor mobile-cocials-list__link" href="" target="_blank" noopener noreferrer>Facebook</a>
+          </li>
+          <li class="mobile-cocials-list__item">
+            <a class="link-no-decor mobile-cocials-list__link" href="" target="_blank" noopener noreferrer>LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Подключаю скрипт бургер-меню кнопка -->
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
