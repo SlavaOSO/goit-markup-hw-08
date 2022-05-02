@@ -270,6 +270,7 @@ body {
 
 .mobile-cocials-list {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .mobile-cocials-list__item:not(:last-child) {
