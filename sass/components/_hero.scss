@@ -1,5 +1,4 @@
 /* Секция Герой */
-
 .hero {
   text-align: center;
   padding-top: 118px;
@@ -27,7 +26,6 @@
       url(../img/hero/hero_md.jpg);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       -webkit-image-set(url(../img/hero/hero_md.webp) 1x);
-
     @include mq(retina) {
       background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
         url(../img/hero/hero_md@2x.jpg);
@@ -41,7 +39,6 @@
       url(../img/hero/hero_lg.jpg);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       -webkit-image-set(url(../img/hero/hero_lg.webp) 1x);
-
     @include mq(retina) {
       background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
         url(../img/hero/hero_lg@2x.jpg);
@@ -66,7 +63,7 @@
     text-transform: uppercase;
     text-align: center;
 
-    @media screen and (min-width: 1199px) {
+    @media screen and (min-width: 1199.5px) {
       @include fonts(44px, 1.36, 0.06em);
     }
   }

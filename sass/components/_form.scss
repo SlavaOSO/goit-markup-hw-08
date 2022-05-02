@@ -17,7 +17,7 @@
   }
 
   &__wrapper {
-    @media screen and(max-width:1199px) {
+    @media screen and(max-width:1199.5px) {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -46,7 +46,7 @@
 
       color: rgba(255, 255, 255, 0.6);
     }
-    @media screen and (min-width: 480px) and (max-width: 1199px) {
+    @media screen and (min-width: 480px) and (max-width: 1199.5px) {
       width: 450px;
     }
     @media screen and (min-width: 1200px) {
@@ -57,14 +57,11 @@
 
   &__button {
     padding: 10px 28px 10px 29px;
-  
-    &-icon {
+    &-text {
       display: flex;
       align-items: center;
-    
       &::after {
         content: '';
-        display: flex;
         width: 24px;
         height: 24px;
         background-image: url(../img/svg/subscribe.svg);

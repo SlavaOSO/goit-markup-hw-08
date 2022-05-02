@@ -7,18 +7,16 @@
     padding-top: 21px;
     padding-bottom: 21px;
   }
-
   @media screen and (min-width: 1200px) {
     padding: 24px 0 25px 0;
   }
-
   border-bottom: 1px solid var(--line-header-color);
 
   &__container {
     display: flex;
     align-items: center;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 767.5px) {
       justify-content: space-between;
     }
   }

@@ -3,14 +3,14 @@
 .feature {
   padding-top: 60px;
   padding-bottom: 60px;
-  
+
   @media screen and (min-width: 1200px) {
     padding-top: 94px;
     padding-bottom: 94px;
   }
 
   &__list {
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 767.5px) {
       max-width: 450px;
       margin-left: auto;
       margin-right: auto;
@@ -19,6 +19,10 @@
       display: flex;
       flex-wrap: wrap;
       gap: 30px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199.5px) {
+      // margin-right: -30px;
+      // margin-bottom: -30px;
     }
   }
 
@@ -30,18 +34,24 @@
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
-    @media screen and(max-width:767px) {
+
+    @media screen and(max-width:767.5px) {
       text-align: center;
     }
   }
 
   &__item {
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 767.5px) {
       margin-bottom: 30px;
     }
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
+
+    @media screen and (min-width: 768px) and (max-width: 1199.5px) {
       width: 354px;
+
+      // margin-right: 30px;
+      // margin-bottom: 30px;
     }
+
     @media screen and (min-width: 1200px) {
       width: 270px;
     }
@@ -64,8 +74,6 @@
     background-repeat: no-repeat;
     background-size: 70px;
   }
-
-  
 
   &__antenna::before {
     background-image: url(../img/svg/antenna.svg);
